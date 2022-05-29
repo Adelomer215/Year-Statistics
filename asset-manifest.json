@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Year-Statistics/static/css/main.78a6e261.css",
+    "main.js": "/Year-Statistics/static/js/main.ae3acc8b.js",
+    "index.html": "/Year-Statistics/index.html",
+    "main.78a6e261.css.map": "/Year-Statistics/static/css/main.78a6e261.css.map",
+    "main.ae3acc8b.js.map": "/Year-Statistics/static/js/main.ae3acc8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78a6e261.css",
+    "static/js/main.ae3acc8b.js"
+  ]
+}
