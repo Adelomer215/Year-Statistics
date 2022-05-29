@@ -1,0 +1,105 @@
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.Expense-item {
+  display: flex;
+  background-color: #4b4b4b;
+  padding: 0.5rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.Expense-item_description {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: flex-end;
+}
+@media (min-width: 580px) {
+  .Expense-item_description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  .Expense-item_description h2 {
+    font-size: 2rem;
+  }
+}
+.Expense-item_description h2 {
+  color: #3a3a3a;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+.Expense-item_description .Expense-item__price {
+  border: 1px solid #fff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.4rem 0.8rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: #380054;
+}
+
+.expenses {
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
+
+  
